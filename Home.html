@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style >
+        body
+        {
+            background-image: url("Comp.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    .d1
+        {
+            border: 2px solid white;
+            color: white;
+        }
+       #con 
+       {
+           margin-top: 0px;
+           margin-left:100px ;
+       }
+       #con
+       {
+           text-align: right;
+       }
+       #con
+       {
+           height: 50px;
+           width: 400px;
+       }
+       #con
+       {
+           padding-left: 500px;
+           padding-top: 5px;
+           padding-right: 5px;
+       }
+      ul
+     {
+         margin: 0px;
+         padding: 0px;
+     } 
+      ul li
+     {
+      width: 120px;
+      height: 30px;
+      line-height: 50px;   
+      float: left;
+
+  }
+    
+   ul li
+   {
+       list-style-type: none;
+   } 
+   ul li a
+   {
+       color: white;
+       font-size: 20px;
+   }
+   ul li a
+   {
+       text-decoration: none;
+   }
+   ul li a:hover
+   {
+       text-decoration: underline;
+   }
+  ul li ul li 
+  {
+//      background-color:yellow;
+  }
+  ul ul li 
+  {
+       position:relative;
+	   top:-10px;
+  }
+  ul ul li
+  {
+     display:none;
+  }
+  ul li:hover ul li
+  {
+      display:inline;
+
+	 padding-right:200px;
+	 padding-bottom:20px;
+	 text-align:left;
+  }
+   </style>
+       </head>
+<body>
+    
+ <h2 id="h2" style="color:white; text-align:center;">User Service</h2>       
+ <div id="con" class="d1"><ul>
+    <li><a href="Fom.html">Create User</a></li>
+    <li><a href="http://localhost/UI/Display.php">List User</a></
+	li>
+    <li><a href="#">Operations</a>
+	                                               <ul>
+												   <li><a href="http://localhost/UI/EditByName.php" style="padding-top:0px;">Update/Delete</a></li>
+												   </ul></div>    
+</body>
+</html>

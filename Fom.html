@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Styl.css">
+    <title>Fill the form</title>
+</head>
+<body>
+    <form action="http://localhost/UI/Insert.php" method="POST" id="f1" onsubmit="return evl()">
+        <div class="textBox">Enter user Name</div><div class="t3" > :&nbsp; <input type="text" id="Uname"  name="userName" required/ ></div>
+                                                       <div class="t3 error" > </div>
+                                                   
+        <div  class="textBox">Enter user Email ID </div><div class="t3">:&nbsp; <input type="email" id="eid" name="email" required/></div>
+                                                   <div class="t3 error em" id="emailError"></div><br>
+        <div  class="textBox">Enter user Phone No. </div><div class="t3">:&nbsp; <input type="text" id="pho" name="phoNo" required /></div>
+                                                   <div class="t3 error pn" id="phoErr"></div>  
+        <div  class="textBox">Enter user Adress </div><div class="t3">:&nbsp; <input type="textarea" id="add" name="addr" required/></div>
+                                                   <div class="t3 error pn"></div>  
+        <!--<div  class="textBox">Enter No. of Employers  </div><div class="t3">:&nbsp; <input type="number" id="Enum" name="boss" required /></div>
+                                                   <div class="t3 error pn"></div> 								
+        <div  class="textBox">Enter Employer's Adress </div><div class="t3">:&nbsp; <input type="textarea"/></div>
+                                                   <div class="t3 error pn"></div> -->										   
+                                                   <div class="t3 error pn" id="sub" ><input type="submit" id="button" value="Submit"></div> 										   
+        </form>										   e
+                                                   
+        
+        
+        
+        <script src="Validate.js"></script>
+                                              
+</body>
+</html>

@@ -1,0 +1,81 @@
+body
+{
+	background-color:black;
+}
+body 
+{
+	background-image:url("O2.jpeg");
+	background-size:cover;
+}
+.textBox
+{
+	float:left;
+}
+#f1 
+{
+	margin-top:20px;
+}
+.t3
+{
+	padding-top:0px;
+	padding-left:400px;
+	
+}
+.textBox
+
+{
+	color:white;
+	font-size:22px;
+}
+.error
+{
+	padding-bottom:20px;
+	padding-left:400px;
+}
+.error
+{
+	color:red;
+	font-size:20px;
+}
+.em
+{
+	position:absolute;
+	top:90px
+	
+}
+.em
+{
+	padding-top:0px;
+	padding-left:420px;
+}
+.pn
+{
+	color:red;
+	font-size:22px;
+}
+.pn
+{
+	padding-top:0px;
+	padding-left:420px;
+}
+#button 
+{
+	padding:20px;
+	background-color:blue;
+	color:white;
+}
+#emailError
+{
+	position:absolute;
+	top:65px;
+}
+#phoErr
+{
+	position:relative;
+	right:10px;
+	bottom:18px;
+}
+#phoErr
+{
+	width:100px;
+}
