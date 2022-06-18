@@ -108,7 +108,7 @@ error_reporting(0);
     if ($query)
      {
         # code...
-     echo"<br><h2>Adress is updated succesfully</h2>";
+     echo"<br><h2>Adress is updated </h2>";
     }
     else {
         echo"updated failed";
