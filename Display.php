@@ -112,7 +112,7 @@ while($fetch =mysqli_fetch_assoc($query))
 <?php 
 if($row==0)
 {
-	echo"<h1>Record not found</h1>";
+	echo"<h1>Records not found</h1>";
 }
 
 
