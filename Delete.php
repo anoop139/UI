@@ -45,7 +45,7 @@ if($query)
 }
 else 
 {
-	echo"<h1 style='color:red'>Deletiom failed</h1>";
+	echo"<h1 style='color:red'>Deletion failed</h1>";
 }
 
 }
