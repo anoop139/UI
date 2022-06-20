@@ -76,16 +76,11 @@ $show  ="select *from user";
 $query =mysqli_query($conn, $show);
 
 $row   = mysqli_num_rows($query);
-
-//$fetch1 =mysqli_fetch_assoc($query1);
-
-while($fetch =mysqli_fetch_assoc($query))
+if($row>0)
 {
-	$boss ="select *from empl where ep=$fetch[uid]";
-	$query1=mysqli_query($conn, $boss);
-	$row2   = mysqli_num_rows($query1);
-	echo"<table border='2px' cellpadding='5px'>
-<tr>
+	
+//$fetch1 =mysqli_fetch_assoc($query1);
+echo"<table border='2px' cellpadding='5px'>
 <tr>
 <th>Name</th>
 <th>Address</th>
@@ -94,8 +89,13 @@ while($fetch =mysqli_fetch_assoc($query))
 <th>Number of Employers</th>
 <th>Enter Employers Details</th>  
 <th>Edit</th>
-   </tr>	
-	<tr>
+   </tr>";
+while($fetch =mysqli_fetch_assoc($query))
+{
+	$boss ="select *from empl where ep=$fetch[uid]";
+	$query1=mysqli_query($conn, $boss);
+	$row2   = mysqli_num_rows($query1);
+	echo"<tr>
      <td>$fetch[name]</td>
 	   <td>$fetch[adress]</td>
 	   <td>$fetch[email]</td>
@@ -106,6 +106,7 @@ while($fetch =mysqli_fetch_assoc($query))
      </tr>";
 
 
+}
 }
 ?>
 </table>
